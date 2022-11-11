@@ -9,7 +9,7 @@ pragma solidity >=0.7.0 <0.9.0;
 
 contract Promedio {
 
-    function promedio (uint a, uint b, uint c) public view returns (uint) {
+    function promedio (uint a, uint b, uint c) public pure returns (uint) {
         return (a+b+c)/3;
     }
 }
